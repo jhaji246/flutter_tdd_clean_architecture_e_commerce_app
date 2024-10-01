@@ -1,0 +1,57 @@
+name: flutter_tdd_clean_architecture_e_commerce_app
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  #local storage
+  shared_preferences: ^2.2.0
+  flutter_secure_storage: ^8.0.0
+
+  #state management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.0.1
+  get_it: ^7.6.0
+
+  http: ^0.13.3
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  internet_connection_checker: ^1.0.0+1
+
+  #ui
+  oktoast: ^3.3.1
+  flutter_snake_navigationbar: ^0.6.1
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.1
+  carousel_slider: ^4.2.1
+  smooth_page_indicator: ^1.1.0
+  flutter_easyloading: ^3.0.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  #  mockito: ^5.4.2
+  mocktail: ^0.3.0
+  bloc_test: ^9.1.4
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/navbar_icons/
+    - assets/status_image/
+    - assets/dev/
+    - assets/other_images/
+    - assets/icons/
+
